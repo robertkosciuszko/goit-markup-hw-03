@@ -32,7 +32,6 @@ body {
         text-align: center;
         display: flex;
         margin-right: 93px;
-    
 
 }
 .webstudio1{
@@ -101,6 +100,7 @@ body {
     font-size: 16px;
     line-height: 1.63;
     cursor: pointer;
+    padding: 6px 22px 6px 22px;
 }
 
 .portfolio {
@@ -240,6 +240,11 @@ a:hover {
 a:active {
     text-decoration: none;
 }*/
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .sekcja1{background-color: var(--background-grey);
     text-decoration: none;
     display: flex;
@@ -294,7 +299,10 @@ h1{
     text-align: center;
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
+
+
 .sekcja2 {
     background-color: var(--background-white);
     text-decoration: none;
@@ -415,11 +423,11 @@ list-style-type: none;
     margin: 0 auto;
     gap: 30px;
     margin-bottom: 94px;
-    calc((100% - 20px) / 3);
+    flex-basis: calc((100% - 20px) / 3);
 }
 .border-img{
     border: 1px solid;
-    border-color: var(--border-image);
+    border-color: var(--border-image); 
     width: 370px;
     
 }
