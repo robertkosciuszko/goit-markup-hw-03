@@ -253,6 +253,8 @@ a:active {
     align-items: center;  
     padding-top: 200px;
     padding-bottom: 280px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 h1{ 
