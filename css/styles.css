@@ -200,13 +200,12 @@ body {
 
 }
 .down_footer{
-    background-color: var(--background-grey);
     height: 252px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     padding-top: 60px;
-    margin-top: 94px;
+
 
 }
     
@@ -245,7 +244,7 @@ a:active {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.sekcja1{background-color: var(--background-grey);
+.sekcja1{
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -299,11 +298,18 @@ h1{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin-bottom: 50px;
 
 }
 
+.description1 {
+    color: var(--black-main);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
 
 .sekcja2 {
     background-color: var(--background-white);
@@ -312,8 +318,8 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 94px;
     max-width: 1600px;
+
     
 }
 .name{
@@ -341,8 +347,8 @@ h1{
 .container{
     width: 100%;
     padding: 0 15px;
-     margin: 0 auto;
-      max-width: 1200px;
+    margin: 0 auto;
+    max-width: 1200px;
 
 }
 .ipsum-style{
@@ -436,4 +442,19 @@ list-style-type: none;
 header{
 border-bottom: 1px solid;
 border-bottom-color: var(--border-karta);
+}
+
+
+.backgroundteam{
+
+    background-color: var(--background-white);
+
+}
+
+.backgroundorder{
+
+background-color: var(--background-grey);
+}
+footer{
+background-color: var(--background-grey);
 }
